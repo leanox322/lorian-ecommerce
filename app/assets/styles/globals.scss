@@ -1,0 +1,53 @@
+@import 'app/assets/styles/variables';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Playfair+Display:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-[#131313] text-base font-light tracking-wider text-gray;
+	font-family: 'Manrope', sans-serif;
+}
+
+.disabled {
+	pointer-events: none;
+	cursor: default;
+	text-decoration: none;
+	opacity: 0.2 !important;
+}
+
+.playfair {
+	font-family: 'Playfair Display', serif;
+}
+
+.btn-link {
+	@apply relative border-b border-white/20 text-sm uppercase tracking-widest;
+
+	&::after {
+		content: '';
+		@apply absolute left-0 -bottom-[1px] h-[1px] w-0 bg-gray transition-all duration-[400ms];
+	}
+
+	&:hover::after {
+		@apply w-full;
+	}
+}
+
+.menu {
+	transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.open-menu {
+	display: block;
+	// opacity: 1;
+}
+
+.close-menu {
+	display: none;
+	// opacity: 0;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}

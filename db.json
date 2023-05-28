@@ -1,0 +1,39 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"name": "Baggy jeans",
+			"image": "https://images2.imgbox.com/8a/e5/YfzrN8hG_o.png",
+			"slug": "baggy-jeans",
+			"price": "29.99"
+		},
+		{
+			"id": 2,
+			"name": "Short beanie",
+			"image": "https://images2.imgbox.com/86/1e/gejoTfaM_o.png",
+			"slug": "short-beanie",
+			"price": "9.99"
+		},
+		{
+			"id": 3,
+			"name": "Contrast trainers",
+			"image": "https://images2.imgbox.com/cd/ce/liCRBdDe_o.png",
+			"slug": "contrast-trainers-with-mesh-detail",
+			"price": "59.99"
+		},
+		{
+			"id": 4,
+			"name": "Comfort jeans with side vent",
+			"image": "https://images2.imgbox.com/e0/9c/iFScSpMR_o.png",
+			"slug": "comfort-jeans-with-side-vent",
+			"price": "33.99"
+		},
+		{
+			"id": 5,
+			"name": "Short puffer jacket",
+			"image": "https://images2.imgbox.com/5a/bb/pfSwccK6_o.png",
+			"slug": "short-puffer-jacket",
+			"price": "44.99"
+		}
+	]
+}
